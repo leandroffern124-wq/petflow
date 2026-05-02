@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetFlow | Progresso do Banho</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topo">
+    <h1>🐾 PetFlow</h1>
+    <p>Acompanhe o banho e tosa do seu pet em tempo real</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Status do atendimento</h2>
+      <p class="sub">Tutor: <strong id="tutorNome">Ana Paula</strong> • Pet: <strong id="petNome">Thor</strong></p>
+
+      <div class="etapas" id="etapas"></div>
+
+      <div class="acoes">
+        <button id="anterior">← Etapa anterior</button>
+        <button id="proxima">Próxima etapa →</button>
+      </div>
+
+      <p class="atual">Etapa atual: <span id="etapaAtual"></span></p>
+    </section>
+  </main>
+
+  <footer>
+    <small>PetFlow © 2026 • Sistema simples de acompanhamento para petshop</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
